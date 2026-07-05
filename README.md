@@ -165,7 +165,6 @@ SmartAssist-AI
   "recommendedDepartment": "Customer Service",
   "recommendedPriority": "High",
   "suggestedResolution": "Hello Customer, we prioritize account security and will investigate the unauthorized access attempt. To assist, could you verify your account number and provide further details about the alert? I will call you at phone number to discuss and provide recommendations for enhancing your account security. Please advise on your preferred timing for our call to address this matter.",
-  "draftReply": "Your account has been hacked. Is there anything I can do to help?",
   "confidence": "69.50%"
 }
 ```
