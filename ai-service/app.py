@@ -1,5 +1,5 @@
 from flask import Flask, request, jsonify
-
+import os
 from services.ai_engine import AIEngine
 from services.response_formatter import format_response
 app = Flask(__name__)
@@ -44,6 +44,6 @@ def analyze():
 if __name__ == "__main__":
     app.run(
         host="0.0.0.0",
-        port=5000,
-        debug=True
+        port=int(os.environ.get("PORT", 5000)),
+        debug=False
     )
